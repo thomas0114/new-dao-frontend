@@ -80,7 +80,7 @@ export default function Header() {
 				{web3Loading ? <button className="button-blue-border" disabled>Loading...</button> : <button className="button-blue-border" onClick={()=>{handleOpen()}}>RESERVE NOW</button>}
 			</div>
 
-			
+
 			{/* <div className="wallet-result-modal" id="modal">
 				<h1>RESERVE FAITH TOKEN</h1>
 				<div className="balance-card">
